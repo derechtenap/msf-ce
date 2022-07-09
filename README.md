@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before you start...
+
+Create a `.env` file in the root directory and insert the following lines
+
+```env
+REACT_APP_VERSION=$npm_package_version
+REACT_APP_NAME=$npm_package_name
+```
+
+These variables are used in various components in the app.
+
 ## Available Scripts
 
 In the project directory, you can run:
